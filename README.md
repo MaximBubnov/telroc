@@ -2,11 +2,15 @@
 # For Telroc Interview
 ## Running the Application
 
-Import the project to the IDE of your choosing as a Maven project.
+1) Import the project to the IDE of your choosing as a Maven project.
 
-Run the application using `mvn spring-boot:run` or by running the `Application` class directly from your IDE.
+2) Create database in PostgreSQL with name `telroc`
 
-Open http://localhost:8080/ in your browser.
+3) Change login and password for PostrgeSQL in application.properties file
+
+4) Run the application using `mvn spring-boot:run` or by running the `Application` class directly from your IDE.
+
+5) Open http://localhost:8080/ in your browser.
 
 For first authorization using:
 
